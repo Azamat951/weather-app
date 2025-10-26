@@ -1,0 +1,93 @@
+body{
+    background-image: url(Image/bg-weather.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+.part1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+.inside{
+    display: flex;
+    gap: 20px;
+}
+.inside h1{
+    font-size: 140px;
+    align-items: center;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -40px;
+}
+.date .p1{
+    font-size: 60px;
+    margin-bottom: 80px;
+}
+.date .p2{
+    font-size: 18px;
+    margin-top: -70px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.inp{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}
+.inp::placeholder{
+    color: rgba(255, 255, 255, 0.484);
+}
+.mini_groups{
+    display: flex;
+    justify-content: space-between;
+}
+.mini_groups .c{
+    color: rgba(255, 255, 255, 0.579);
+}
+.small_div{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: white;
+}
+.btn{
+    background-color: transparent;
+    border: none;
+}
+@media (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    text-align: center;
+  }
+
+  input {
+    width: 90%;
+    max-width: 400px;
+  }
+  .BRUH{
+    display: flex;
+  }
+}
