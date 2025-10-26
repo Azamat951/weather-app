@@ -90,4 +90,9 @@ body{
   .BRUH{
     display: flex;
   }
+    .logo{
+        position:absolute;
+        left:70px;
+    }
+    .inside{flex-direction:column;}
 }
